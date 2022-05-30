@@ -1,0 +1,7 @@
+<div class="no-wallet" *ngIf="!this.walletConnected">
+    We were not able to detect <strong>MetaMask</strong>. We value <strong>privacy and security</strong> a lot so we limit your wallet options.<br />
+    <br />
+    But don't worry! <span className="emoji">😃</span> You can always interact with the smart-contract through <a href="{this.generateContractUrl()}" target="_blank">{{this.stateManager.current.networkConfig.blockExplorer.name}}</a><br />
+    <br />
+    You can also get your <strong>Whitelist Proof</strong> manually, using the tool below.
+</div>

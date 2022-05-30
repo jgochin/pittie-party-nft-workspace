@@ -1,0 +1,8 @@
+<div class="main-view">
+    <h1>{{title}}</h1>
+    <div class="body-view">
+        <wallet-connector [stateManager]="stateManager"></wallet-connector>
+        <div>{{stateManager.current.merkleProofManualAddressFeedbackMessage}}</div>
+    </div>
+    <pittie-footer></pittie-footer>
+</div>

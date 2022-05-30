@@ -1,0 +1,8 @@
+{
+  "name": "pittie-party-nft-workspace",
+  "version": "1.0.0",
+  "description": "Contains all project required to build, test, and deploy an NFT miniting sight.",
+  "main": "index.js",
+  "author": "gochinj <jeff@gochin.com>",
+  "license": "MIT"
+}
