@@ -4,5 +4,8 @@
   "description": "Contains all projects required to build, test, and deploy an NFT miniting sight.",
   "main": "index.js",
   "author": "gochinj <jeff@gochin.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "contract/compile": "cd smart-contract && yarn compile && cd .."
+  }
 }
