@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { WalletConnectorComponent } from './wallet-connector/wallet-connector.component';
 import { PittieFooterComponent } from './pittie-footer/pittie-footer.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { WalletConnectButtonComponent } from './wallet-connect-button/wallet-connect-button.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WalletConnectorComponent,
     PittieFooterComponent,
-    NavBarComponent
+    NavBarComponent,
+    WalletConnectButtonComponent
   ],
   imports: [
     BrowserModule,

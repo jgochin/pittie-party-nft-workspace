@@ -124,5 +124,8 @@
         }
       }
     }},
-  "defaultProject": "pittie-party-site"
+  "defaultProject": "pittie-party-site",
+  "cli": {
+    "analytics": false
+  }
 }
